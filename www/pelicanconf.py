@@ -25,7 +25,7 @@ THEME = '_theme/'
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = [('About',
-              'http://www.jarrodmillman.com/stat159-fall2015/pages/about.html')]
+              'http://www.jarrodmillman.com/stat159-fall2015/pages/about.html'),]
 
 DISPLAY_TAGS_ON_SIDEBAR = False
 
@@ -36,12 +36,14 @@ DISPLAY_TAGS_ON_SIDEBAR = False
 #         ('You can modify those links in your config file', '#'),)
 
 # Social widget
-#SOCIAL = (('You can add links in your config file', '#'),
+SOCIAL = (('GitHub', 'https://github.com/berkeley-stat159'),)
 #          ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+STATIC_PATHS = (['files'])
 
 CC_LICENSE = "CC-BY-NC-SA"
