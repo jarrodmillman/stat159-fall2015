@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'K. Jarrod Millman'
-SITENAME = u'Stat 159 (Fall 2015)'
+SITENAME = u'Stat 159/259 (Fall 2015)'
 SITEURL = ''
 
 PATH = 'content'
@@ -20,6 +20,14 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 THEME = '_theme/'
+
+## Title menu options (this isn't necessary, but I wanted to have more control)
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = False
+MENUITEMS = [('About',
+              'http://www.jarrodmillman.com/stat159-fall2015/pages/about.html')]
+
+DISPLAY_TAGS_ON_SIDEBAR = False
 
 # Blogroll
 #LINKS = (('Pelican', 'http://getpelican.com/'),
