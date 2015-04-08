@@ -21,3 +21,13 @@ Software tools may include Bash, Git, Python, and LaTeX.
 * CCN: TBD
 
 **Prerequisites**: Statistics 133, Statistics 134, and Statistics 135 (or equivalent).
+
+### Syllabus
+
+For reference, here are tentative drafts of the
+
+* [Stat 159 syllabus](|filename|/files/stat159-syllabus.pdf)
+* [Stat 259 syllabus](|filename|/files/stat259-syllabus.pdf)
+
+Please note that these will evolve over the summer, but should give you a reasonable
+idea of the intended content and structure of the courses.
