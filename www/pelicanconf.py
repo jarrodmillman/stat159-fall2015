@@ -3,12 +3,12 @@
 from __future__ import unicode_literals
 
 AUTHOR = u'K. Jarrod Millman'
-SITENAME = u'Stat159'
+SITENAME = u'Stat 159 (Fall 2015)'
 SITEURL = ''
 
 PATH = 'content'
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'US/Pacific'
 
 DEFAULT_LANG = u'en'
 
@@ -19,17 +19,21 @@ TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
+THEME = '_theme/'
+
 # Blogroll
-LINKS = (('Pelican', 'http://getpelican.com/'),
-         ('Python.org', 'http://python.org/'),
-         ('Jinja2', 'http://jinja.pocoo.org/'),
-         ('You can modify those links in your config file', '#'),)
+#LINKS = (('Pelican', 'http://getpelican.com/'),
+#         ('Python.org', 'http://python.org/'),
+#         ('Jinja2', 'http://jinja.pocoo.org/'),
+#         ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('You can add links in your config file', '#'),
-          ('Another social link', '#'),)
+#SOCIAL = (('You can add links in your config file', '#'),
+#          ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
+
+CC_LICENSE = "CC-BY-NC-SA"
