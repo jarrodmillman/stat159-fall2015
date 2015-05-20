@@ -20,6 +20,7 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 THEME = '_theme/'
+INDEX_SAVE_AS = 'announcements.html'
 
 ## Title menu options (this isn't necessary, but I wanted to have more control)
 DISPLAY_CATEGORIES_ON_MENU = False

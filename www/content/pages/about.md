@@ -1,7 +1,5 @@
-Title: Concepts in Computing with Data.
+Title: UC Berkeley's Statistics 159 and 259 (Fall 2015)
 Slug: about
-
-### UC Berkeley, Statistics 159 and 259, Fall 2015
 
 A project-based introduction to statistical data analysis.
 Through case studies, computer laboratories, and a term project,
