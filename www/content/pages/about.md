@@ -16,7 +16,7 @@ Software tools may include Bash, Git, Python, and LaTeX.
 * GSI
     * TBD
     * OH: TBD
-* CCN: TBD
+* CCN: [87680](http://osoc.berkeley.edu/OSOC/osoc?p_ccn=87680&p_term=FL) and [87812](http://osoc.berkeley.edu/OSOC/osoc?p_ccn=87812&p_term=FL)
 
 **Prerequisites**: Statistics 133, Statistics 134, and Statistics 135 (or equivalent).
 

@@ -37,7 +37,7 @@ DISPLAY_TAGS_ON_SIDEBAR = False
 #         ('You can modify those links in your config file', '#'),)
 
 # Social widget
-SOCIAL = (('GitHub', 'https://github.com/berkeley-stat159'),)
+LINKS = (('Course GitHub site', 'https://github.com/berkeley-stat159'),)
 #          ('Another social link', '#'),)
 
 DEFAULT_PAGINATION = 10
