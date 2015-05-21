@@ -21,24 +21,24 @@ AUTHOR_FEED_RSS = None
 
 THEME = '_theme/'
 INDEX_SAVE_AS = 'announcements.html'
+MD_EXTENSIONS = (['toc'])
 
 ## Title menu options (this isn't necessary, but I wanted to have more control)
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
-MENUITEMS = [('About',
-              'http://www.jarrodmillman.com/stat159-fall2015/pages/about.html'),]
+MENUITEMS = [('Announcements',
+              'http://www.jarrodmillman.com/stat159-fall2015/announcements.html'),
+             ('Syllabus',
+              'http://www.jarrodmillman.com/stat159-fall2015/pages/syllabus.html'),
+             ('Projects',
+              'http://www.jarrodmillman.com/stat159-fall2015/pages/projects.html'),
+             ('Labs',
+              'http://www.jarrodmillman.com/stat159-fall2015/pages/labs.html'),]
 
 DISPLAY_TAGS_ON_SIDEBAR = False
 
-# Blogroll
-#LINKS = (('Pelican', 'http://getpelican.com/'),
-#         ('Python.org', 'http://python.org/'),
-#         ('Jinja2', 'http://jinja.pocoo.org/'),
-#         ('You can modify those links in your config file', '#'),)
-
-# Social widget
 LINKS = (('Course GitHub site', 'https://github.com/berkeley-stat159'),)
-#          ('Another social link', '#'),)
+#         ('Piazza discussion site (not live)', ''),)
 
 DEFAULT_PAGINATION = 10
 
