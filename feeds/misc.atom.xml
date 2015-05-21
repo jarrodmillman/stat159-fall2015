@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>Stat 159/259 (Fall 2015)</title><link href="http://www.jarrodmillman.com/stat159-fall2015/" rel="alternate"></link><link href="http://www.jarrodmillman.com/stat159-fall2015/feeds/misc.atom.xml" rel="self"></link><id>http://www.jarrodmillman.com/stat159-fall2015/</id><updated>2015-04-08T00:00:00-07:00</updated><entry><title>New class for Fall 2015</title><link href="http://www.jarrodmillman.com/stat159-fall2015/newclass.html" rel="alternate"></link><updated>2015-04-08T00:00:00-07:00</updated><author><name>Jarrod Millman</name></author><id>tag:www.jarrodmillman.com,2015-04-08:stat159-fall2015/newclass.html</id><summary type="html">&lt;p&gt;This site is the tentative homepage for a new course at UC Berkeley titled
-&lt;strong&gt;Reproducible and Collaborative Statistical Data Science&lt;/strong&gt;.  This is a
-4-unit course offered by the Department of Statistics for the first time
-in Fall 2015.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>Stat 159/259 (Fall 2015)</title><link href="http://www.jarrodmillman.com/stat159-fall2015/" rel="alternate"></link><link href="http://www.jarrodmillman.com/stat159-fall2015/feeds/misc.atom.xml" rel="self"></link><id>http://www.jarrodmillman.com/stat159-fall2015/</id><updated>2015-04-08T00:00:00-07:00</updated><entry><title>New class for Fall 2015</title><link href="http://www.jarrodmillman.com/stat159-fall2015/newclass.html" rel="alternate"></link><updated>2015-04-08T00:00:00-07:00</updated><author><name>Jarrod Millman</name></author><id>tag:www.jarrodmillman.com,2015-04-08:stat159-fall2015/newclass.html</id><summary type="html">&lt;p&gt;This is the homepage for a new 4-unit course at UC Berkeley titled
+&lt;strong&gt;Reproducible and Collaborative Statistical Data Science&lt;/strong&gt; offered
+by the Department of Statistics for the fall of 2015.&lt;/p&gt;
 &lt;p&gt;The course is based on the Stat 157 that was offered in
 &lt;a href="https://github.com/stat157/fall-2013"&gt;Fall 2013&lt;/a&gt; and
 &lt;a href="https://github.com/ucb-stat-157/fall-2014-public"&gt;Fall 2014&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;In Fall 2015, the class will be offered jointly to undergraduates (Stat 159)
+&lt;p&gt;The class will be offered jointly to undergraduates (Stat 159)
 and graduate students (Stat 259).  Graduate standing is required to register
 for Stat 259.&lt;/p&gt;
 &lt;p&gt;Stat 133, 134, and 135 are prerequisites.&lt;/p&gt;
-&lt;p&gt;The content and syllabus will evolve over the summer, but here is the current
-draft of the &lt;a href="http://www.jarrodmillman.com/stat159-fall2015/files/stat159-syllabus.pdf"&gt;Stat 159 syllabus&lt;/a&gt; and
-&lt;a href="http://www.jarrodmillman.com/stat159-fall2015/files/stat259-syllabus.pdf"&gt;Stat 259 syllabus&lt;/a&gt;.&lt;/p&gt;</summary></entry></feed>
+&lt;p&gt;The content and syllabus will evolve over the summer, but here are
+drafts of the &lt;a href="http://www.jarrodmillman.com/stat159-fall2015/files/stat159-syllabus.pdf"&gt;Stat 159 syllabus&lt;/a&gt; and
+the &lt;a href="http://www.jarrodmillman.com/stat159-fall2015/files/stat259-syllabus.pdf"&gt;Stat 259 syllabus&lt;/a&gt;.&lt;/p&gt;</summary></entry></feed>
