@@ -1,0 +1,306 @@
+% Document settings
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[pdftex]{graphicx}
+\usepackage{multirow}
+\usepackage{setspace}
+\usepackage{hyperref}
+\pagestyle{plain}
+\setlength\parindent{0pt}
+
+\begin{document}
+
+% Course information
+\begin{tabular}{ l l }
+  \multirow{3}{*}{\includegraphics[height=1.25in,width=1.25in]{../fig/ucberkeleyseal_874_540.eps}}
+  & \LARGE Statistics 159 \& 259 --- Fall 2015 Syllabus\\
+  & \LARGE Reproducible and Collaborative Statistical Data Science \\\\
+  & \Large CCN: 87680 (Stat 159) and 87812 (Stat 259)\\
+  & \Large Class meets TuTh 9:30--11A in 150 GSPP \\
+  & \Large Lab meets M 10--12P or 12--2P in 340 EVANS \\\\
+\end{tabular}
+\vspace{10mm}
+
+% Professor information
+\begin{tabular}{ l l }
+  \multirow{6}{*} & \large K. Jarrod Millman \\
+  & \large http://www.jarrodmillman.com \\
+  & \large Office Location: 210 Barker Hall \\
+  & \large Office Hours: TBD \\
+\end{tabular}
+\vspace{5mm}
+\begin{center} I reserve the right to make changes to the syllabus.\\
+\end{center}
+
+% Course details
+\textbf {\large \\ Course Description:}
+A project-based introduction to statistical data science. Through lectures,
+computational laboratories, readings, homeworks, and a group project, you will learn
+practical techniques and tools for producing statistically sound and
+appropriate, reproducible, and verifiable computational answers to scientific
+questions.  Course emphasizes version control, testing, process automation,
+code review, and collaborative programming. Software tools include Bash, Git,
+Python, and \LaTeX.
+
+\textbf {Prerequisites:} Statistics 133, Statistics 134, and Statistics 135
+(or equivalent). Graduate standing is required to register for Statistics 259.
+
+\textbf {Credit Hours:} 4 \\
+
+\textbf {\large Text(s):} 
+Readings will be assigned weekly and will mostly consist of articles and tutorials. \\
+
+\textbf {\large Course Objectives:} \\
+At the completion of this course, students will:
+\begin{enumerate} \itemsep-0.4em
+  \item be proficient at the Unix commandline
+  \item be expert at version control with Git
+  \item be able to write documents in Markdown or \LaTeX (including using
+        pandoc)
+  \item be familiar with scientific computing in Python
+  \item understand the computational and statistical issues involved with
+        reproducibility
+  \item be familiar with computational issues in modern statistical data
+        analysis through hands-on analysis of functional MRI data
+\end{enumerate}
+
+\textbf {\large Grading:} \\
+\hspace*{40mm}
+\begin{tabular}{ l l }
+Quiz  & 15\% \\
+Reading  & 20\% \\
+Homework & 25\% \\
+Project  & 40\%
+\end{tabular} \\\\
+
+For each assigned reading, you will submit a short ($\sim 2$ paragraphs) report.
+
+Quizzes will be held during class or lab unannounced.  We will drop your
+two lowest scores.
+
+\newpage
+
+\textbf{\large Course Policies:}
+
+\textbf{Attendance and behavior in class}: You are expected to attend all lectures
+and labs.  Any known or potential extracurricular conflicts should be discussed
+in person with me during the first two weeks of the semester, or as
+soon as they arise. \textbf{Cellphones} are to be turned off during class time.
+\textbf{Laptop} use during class is recommend, but it is expected that you will be
+using your laptop to type along with the lecture.\\
+
+\textbf{Submission of assignments}: Assignments will be accepted by electronic
+submission to GitHub only.  There will be no makeup quizzes. No
+late reading reports or homeworks will be accepted.  Grades of Incomplete will be granted
+only for dire medical or personal emergencies that cause you to miss the final project
+presentation, and only if your work up to that point has been satisfactory.\\
+
+\textbf{Academic integrity}: Any test, paper, or report submitted by you is presumed
+to be your own original work that has not previously been submitted for credit
+in another course. While you are encouraged to work together on homework
+assignments, the work and writeup must be your own. For example, suggesting a
+function to another student is acceptable, whereas simply giving him or her
+your own code is not.  If you are not clear about the expectations for
+completing an assignment or taking a quiz, be sure to seek clarification from
+me or GSI beforehand. Any evidence of cheating and plagiarism will
+be subject to disciplinary action.  Please read the Honor
+Code (\url{http://asuc.org/honorcode/index.php}) carefully.\\
+
+\textbf{Class discussion}:  We will be using Piazza for class discussion.
+Rather than emailing questions to the teaching staff, you should post
+your questions on Piazza.
+
+To help your fellow students, the GSI, and me in responding to your questions,
+you should review Eric Raymond's How To Ask Questions The Smart
+Way (\url{http://www.catb.org/esr/faqs/smart-questions.html}).
+
+Find our class page at: \url{https://piazza.com/berkeley/fall2015/statistics159/home}\\
+
+\textbf{Students with disabilities}: If you need accommodations for any physical,
+psychological, or learning disability, please speak to me after class or during
+office hours so that we can make the necessary arrangements.\\
+
+\noindent\textbf{Important Dates}:
+\begin{center} \begin{minipage}{5in}
+\begin{flushleft}
+Form teams \dotfill Sept. 17\\
+Homework 1 \dotfill Sept. 24\\
+Project proposal \dotfill Oct. 1\\
+Homework 2 \dotfill Oct. 29\\
+Progress report \dotfill Nov. 3 \& 5\\
+Homework 3 \dotfill Nov. 19\\
+Project presentation \dotfill Dec. 1 \& 3\\
+Project report \dotfill Dec. 18\\
+\end{flushleft}
+\end{minipage}
+\end{center}
+
+\newpage
+
+% Course Outline
+\textbf {\large Tentative Course Outline}:
+
+The weekly coverage might change as it depends on the progress of the class.
+%However, you must keep up with the reading assignments.
+
+\begin{table}[h!]
+\normalsize % The size of the table text can be changed depending on content. Remove if desired.
+\begin{tabular}{ | c | c | }
+\hline
+\textbf{Week} & \textbf{Content} \\
+\hline
+Week 1 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Course overview, introduction to Unix
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 2 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Basic Git and documentation tools
+	\item \textbf{Reading 1}: L Preeyanon, AB Pyrkosz, and CT Brown.
+              ``Reproducible bioinformatics research for biologists.''
+              %Implementing Reproducible Research (2014)
+              (2014)
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 3 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Statistical analysis of fMRI
+	\item \textbf{Reading 2}: MA Lindquist. ``The statistical analysis of fMRI data.''
+              %Statistical Science 23.4 (2008)
+              (2008)
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 4 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Introduction to Python
+	\item \textbf{Reading 3}: F P\'{e}rez, BE Granger, and JD Hunter.
+              ``Python: an ecosystem for scientific computing.''
+              %Computing in Science \& Engineering 13.2 (2011)
+              (2011)
+        \item \textbf{Form teams}
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 5 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Scientific computing with Python I
+	\item \textbf{Homework 1}: Twitter 
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 6 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Scientific computing with Python II
+	\item \textbf{Project proposal}
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 7 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Collaborative workflow with Git
+	\item \textbf{Reading 4}: KJ Millman and F P\'{e}rez.
+              ``Developing open source scientific practice.''
+              %Implementing Reproducible Research (2014)
+              (2014)
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 8 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Project organization, process automation
+	\item \textbf{Reading 5}: V Stodden.
+              ``What computational scientists need to know about intellectual property law: A primer.''
+              %Implementing Reproducible Research (2014)
+              (2014)
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 9 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Exploratory data analysis
+	\item \textbf{Reading 6}: DA Freedman.
+              ``Statistics and the scientific method.'' (1985)
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 10 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Statistical analysis
+	\item \textbf{Homework 2}: Potti et al. cancer data
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 11 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+        \vspace{1mm}
+        \item \textbf{Project progress report}
+        \vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 12 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Typesetting with \LaTeX
+	\item \textbf{Reading 7}: JB Buckheit and DL Donoho.
+              ``Wavelab and reproducible research.'' 1995.
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 13 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Model selection / validation ?
+	\item \textbf{Homework 3}: fMRI related?
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 14 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+	\vspace{1mm}
+	\item Final thoughts/Selective inference, Thanksgiving
+	\item \textbf{Reading 8 (Extra credit)}: JW Tukey. ``The future of data analysis.''
+              %The Annals of Mathematical Statistics (1962) 
+              (1962) 
+	\vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+Week 15 & \begin{minipage}{.85\textwidth}
+\begin{itemize} \itemsep-0.4em
+        \vspace{1mm}
+        \item \bf{Project presentation}
+        \vspace{1mm}
+\end{itemize}
+\end{minipage} \\
+\hline
+\end{tabular} 
+\end{table}
+
+\end{document}
