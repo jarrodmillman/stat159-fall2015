@@ -1,5 +1,5 @@
 Title: UC Berkeley's Statistics 159/259 (Fall 2015)
-URL:
+URL: 
 save_as: index.html
 
 ## Reproducible and Collaborative Statistical Data Science
@@ -24,5 +24,5 @@ Software tools include Bash, Git, Python, and LaTeX.
     * Lab meets M 10-12P or 12-2P in 340 EVANS
 * CCN: [87680](http://osoc.berkeley.edu/OSOC/osoc?p_ccn=87680&p_term=FL) (Stat 159) and [87812](http://osoc.berkeley.edu/OSOC/osoc?p_ccn=87812&p_term=FL) (Stat 259)
 
-**Prerequisites**: Statistics 133, Statistics 134, and Statistics 135 (or equivalent).
+**Prerequisites**: Stat 133, Stat 134, and Stat 135 (or equivalent).
 Graduate standing is required to register for Stat 259.

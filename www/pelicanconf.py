@@ -29,22 +29,26 @@ DISPLAY_PAGES_ON_MENU = False
 MENUITEMS = [('Announcements',
               'http://www.jarrodmillman.com/stat159-fall2015/announcements.html'),
              ('Syllabus',
-              'http://www.jarrodmillman.com/stat159-fall2015/pages/syllabus.html'),
-             ('Projects',
-              'http://www.jarrodmillman.com/stat159-fall2015/pages/projects.html'),
+              'http://www.jarrodmillman.com/stat159-fall2015/syllabus.pdf'),
+             ('Calendar',
+              'http://www.jarrodmillman.com/stat159-fall2015/cal.pdf'),
+             ('Lectures',
+              'http://www.jarrodmillman.com/stat159-fall2015/pages/lectures.html'),
              ('Labs',
-              'http://www.jarrodmillman.com/stat159-fall2015/pages/labs.html'),]
+              'http://www.jarrodmillman.com/stat159-fall2015/pages/labs.html'),
+             ('Project',
+              'http://www.jarrodmillman.com/stat159-fall2015/pages/project.html'),]
 
 DISPLAY_TAGS_ON_SIDEBAR = False
 
-LINKS = (('Course GitHub site', 'https://github.com/berkeley-stat159'),)
-#         ('Piazza discussion site (not live)', ''),)
+LINKS = (('Course GitHub site', 'https://github.com/berkeley-stat159'),
+         ('Piazza discussion site', 'https://piazza.com/berkeley/fall2015/stat159/home'),)
 
 DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 #RELATIVE_URLS = True
 
-STATIC_PATHS = (['files'])
+#STATIC_PATHS = (['files'])
 
 CC_LICENSE = "CC-BY-NC-SA"
