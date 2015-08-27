@@ -17,9 +17,9 @@ Software tools include Bash, Git, Python, and LaTeX.
     * [Jarrod Millman](http://www.jarrodmillman.com)
     * OH: TBD
 * GSI
-    * TBD
+    * Ross Barnowski
     * OH: TBD
-* Session Dates: 09/27-12/11/15
+* Session Dates: 08/27-12/11/15
     * Class meets TuTh 930-11A in [150 GSPP](http://ets.berkeley.edu/classrooms/150-gspp)
     * Lab meets M 10-12P or 12-2P in 340 EVANS
 * CCN: [87680](http://osoc.berkeley.edu/OSOC/osoc?p_ccn=87680&p_term=FL) (Stat 159) and [87812](http://osoc.berkeley.edu/OSOC/osoc?p_ccn=87812&p_term=FL) (Stat 259)
