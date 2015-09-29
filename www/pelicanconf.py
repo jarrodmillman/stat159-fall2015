@@ -32,10 +32,8 @@ MENUITEMS = [#('Announcements',
               'http://www.jarrodmillman.com/stat159-fall2015/syllabus.pdf'),
              ('Calendar',
               'http://www.jarrodmillman.com/stat159-fall2015/cal.pdf'),
-             ('Lectures',
+             ('Lectures/Labs',
               'http://www.jarrodmillman.com/rcsds'),
-             ('Labs',
-              'http://www.jarrodmillman.com/stat159-fall2015/pages/labs.html'),
              ('Project',
               'http://www.jarrodmillman.com/stat159-fall2015/pages/project.html'),]
 

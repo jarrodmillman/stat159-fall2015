@@ -15,7 +15,7 @@ Software tools include Bash, Git, Python, and LaTeX.
 
 * Instructor
     * [Jarrod Millman](http://www.jarrodmillman.com)
-    * OH: TBD
+    * OH: Th 11A-12P in 210Q BARKER
 * GSI
     * Ross Barnowski
     * OH: TBD
