@@ -18,7 +18,7 @@ Software tools include Bash, Git, Python, and LaTeX.
     * OH: Th 11A-12P in 210Q BARKER
 * GSI
     * Ross Barnowski
-    * OH: TBD
+    * OH: W 2-4P in 444 EVANS
 * Session Dates: 08/27-12/11/15
     * Class meets TuTh 930-11A in [150 GSPP](http://ets.berkeley.edu/classrooms/150-gspp)
     * Lab meets M 10-12P or 12-2P in 340 EVANS
